@@ -1,0 +1,8 @@
+Làm tròn số các phần tử trong mảng,Làm tròn lên,Làm tròn xuống,các giá trị min của từng axis,các giá trị max của từng axis,tổng của các phần tử trong mảng,trung bình cộng của các phần tử trong mảng,median,average
+"[[ 1  2  3  4]
+ [ 6  7  8  9]
+ [ 9 10 11 12]]","[[ 2.  3.  4.  5.]
+ [ 6.  7.  8.  9.]
+ [10. 11. 12. 13.]]","[[ 1.  2.  3.  4.]
+ [ 5.  6.  7.  8.]
+ [ 9. 10. 11. 12.]]",[1.2 2.3 3.4 4.5],[ 9.1 10.2 11.3 12.4],83.4,6.95,7.25,6.95
