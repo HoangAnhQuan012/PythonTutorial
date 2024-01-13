@@ -1,0 +1,16 @@
+<html>
+    <head>
+        <script type="text/javascript" src="{{ url_for('static', filename = 'hello.js') }}"></script>
+        <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename = 'tony.css') }}">
+    </head>
+    <body>
+        <input type="button" onclick="sayHello()" value="Hello">
+        <h2>Lau ca trinh</h2>
+        <h3 class="love">Love you</h3>
+        <h2 class="teen">Teenager</h2>
+        <p class="love">Love p tag</p>
+        <p id="lol">this id is lol</p>
+        <h3 class="xiec">class is xiec</h3>
+        <img src="{{ url_for('static', filename = 'tieuvy.png') }}" width="500" height="500" alt="">
+    </body>
+</html>

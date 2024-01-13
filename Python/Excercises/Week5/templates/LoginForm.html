@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Login Form</title>
+</head>
+<body>
+    <form action="http://127.0.0.1:5000/loginForm" method="POST">
+        <table>
+            <tr>
+                <th colspan="2" align="center">Thông tin đăng nhập</th>
+            </tr>
+            <tr>
+                <th>
+                    Tên đăng nhập: <td><input type="text" name="username"></td>
+                </th>
+            </tr>
+            <tr>
+                <th>
+                    Mật khẩu: <td><input type="password" name="password"></td>
+                </th>
+            </tr>
+            <tr>
+                <th>
+                    Nhập lại mật khẩu: <td><input type="password" name="password"></td>
+                </th>
+            </tr>
+            <tr>
+                <th colspan="2" align="center">Thông tin cá nhân</th>
+            </tr>
+            <tr>
+                <th>
+                    Họ Khách hàng: <td><input type="text" name="firstName"></td>
+                </th>
+            </tr>
+            <tr>
+                <th>
+                    Tên Khách hàng: <td><input type="text" name="lastname"></td>
+                </th>
+            </tr>
+            <tr>
+                <th>
+                    Ngày sinh: <td><input type="date" name="dateOfBirth"></td>
+                </th>
+            </tr>
+            <tr>
+                <th>
+                    Email: <td><input type="email" name="email"></td>
+                </th>
+            </tr>
+            <tr>
+                <th>
+                    Thu nhập: <td><input type="number" name="income"></td>
+                </th>
+            </tr>
+            <tr>
+                <th>
+                    giới tính: <td><input type="radio" name="male" id="male"> Male <input type="radio" name="female" id="female"> Female</td>
+                </th>
+            </tr>
+            <tr>
+                <th>
+                    Địa chỉ: <td><textarea name="address" cols="30" rows="3"></textarea></td>
+                </th>
+            </tr>
+            <tr>
+                <th>
+                    Điện thoại: <td><input type="text" name="phone"></td>
+                </th>
+            </tr>
+            <tr>
+                <td colspan="2" align="center"><input type="submit" value="Đăng ký"></td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>
